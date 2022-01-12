@@ -1,0 +1,126 @@
+/* Modern Reset */
+
+/* Box sizing rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: helvetica;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+.adding-height {
+  min-height: 70vh;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  max-height: 250px;
+}
+
+input[type="text"] {
+  font-size: 17px;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 38px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: white;
+}
+
+hr {
+  display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+/* Colours and styles*/
+
+.blue-color {
+  color: rgb(72, 139, 228);
+}
+
+.img-frame {
+  max-width: 160px;
+}
+
+.box {
+  max-width: 20rem;
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+}
+
+.padding {
+  padding: 0.5rem 0 0.2rem 0;
+}
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+p:hover {
+  background-color: aqua;
+  border-radius: 100%;
+  padding: 2rem;
+}
